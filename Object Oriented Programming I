@@ -1,0 +1,63 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+class character
+{
+
+public:
+
+  bool name;
+
+};
+
+class rogue : public character
+{
+
+public:
+
+void battle()
+{
+ string attack;
+  
+  if(attack ==)
+  {
+    cout << "I am Throwing Stars!" << endl;
+  }
+}
+
+};
+
+class Pirate : public character
+{
+
+public:
+
+
+
+};
+
+int main() 
+{
+
+  string input;
+  
+  rogue Rge1;
+
+  Pirate PRT1;
+
+  cout << "welcome to Warriors Quest!" << endl;
+
+  cout << "please! Choose your Class!" << endl;
+
+  if(input == "Rogue")
+  {
+    cin >> Rge1;
+    cout << "ahh, so your Rogue then. well you best get to stealing! see ya!" << endl;
+  }
+  else if(input == "PRT1")
+  {
+    cout << "a pirate, what are you doing so far from the sea, you best get back Now. see ya!" << endl;
+  }
+  
+}
